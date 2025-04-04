@@ -17,6 +17,7 @@ def send_data():
         
         payload = {
             'api_key': API_KEY, 
+            'field1': temperature,
             'field2': humidity,          
             'field3': pressure,         
             'field4': light_intensity    
